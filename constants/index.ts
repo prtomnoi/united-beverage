@@ -15,12 +15,16 @@ export const ProductSlide = [
 ];
 
 export const brandsLogo = [
-  { label: "Logo1", image: "/brands/1.png" },
+  {
+    label: "Logo1",
+    image: "/brands/1.png",
+    url: "https://www.angusdundee.co.uk/",
+  },
+  { label: "Logo3", image: "/brands/3.png", url: "https://bigpeat.com/" },
+  { label: "Logo6", image: "/brands/6.png", url: "https://cutty-sark.com/" },
+  { label: "Logo4", image: "/brands/4.png", url: "https://camus.fr/en" },
   { label: "Logo2", image: "/brands/2.png" },
-  { label: "Logo3", image: "/brands/3.png" },
-  { label: "Logo4", image: "/brands/4.png" },
   { label: "Logo5", image: "/brands/5.png" },
-  { label: "Logo6", image: "/brands/6.png" },
   { label: "Logo7", image: "/brands/7.png" },
   { label: "Logo8", image: "/brands/8.png" },
   { label: "Logo9", image: "/brands/9.png" },
@@ -94,3 +98,125 @@ export const latestEvents = [
     ],
   },
 ];
+
+export const clientLogos = {
+  malls: {
+    label: "Shopping Mall & Supermarket",
+    logo: [
+      { image: "/clients/malls/1.png" },
+      { image: "/clients/malls/2.png" },
+      { image: "/clients/malls/3.png" },
+      { image: "/clients/malls/4.png" },
+      { image: "/clients/malls/5.png" },
+      { image: "/clients/malls/6.png" },
+      { image: "/clients/malls/7.png" },
+      { image: "/clients/malls/8.png" },
+      { image: "/clients/malls/9.png" },
+      { image: "/clients/malls/10.png" },
+      { image: "/clients/malls/11.png" },
+    ],
+  },
+  retail: {
+    label: "Retail Shop",
+    logo: [
+      {
+        label: "Bangkok",
+        logo: [
+          { image: "/clients/retail/bangkok/1.png" },
+          { image: "/clients/retail/bangkok/2.png" },
+          { image: "/clients/retail/bangkok/3.png" },
+          { image: "/clients/retail/bangkok/4.png" },
+          { image: "/clients/retail/bangkok/5.png" },
+          { image: "/clients/retail/bangkok/6.png" },
+          { image: "/clients/retail/bangkok/7.png" },
+          { image: "/clients/retail/bangkok/8.png" },
+          { image: "/clients/retail/bangkok/9.png" },
+          { image: "/clients/retail/bangkok/10.png" },
+          { image: "/clients/retail/bangkok/11.png" },
+        ],
+      },
+      {
+        label: "Phuket & Samui",
+        logo: [
+          { image: "/clients/retail/phuket/1.png" },
+          { image: "/clients/retail/phuket/2.png" },
+        ],
+      },
+      {
+        label: "Chiangmai",
+        logo: [
+          { image: "/clients/retail/chiangmai/1.png" },
+          { image: "/clients/retail/chiangmai/2.png" },
+        ],
+      },
+      {
+        label: "Pattaya",
+        logo: [
+          { image: "/clients/retail/pattaya/1.png" },
+          { image: "/clients/retail/pattaya/2.png" },
+        ],
+      },
+      {
+        label: "Khonkean",
+        logo: [{ image: "/clients/retail/khonkean/1.png" }],
+      },
+    ],
+  },
+  online: {
+    label: "Online Shop",
+    logo: [
+      { image: "/clients/online/1.png" },
+      { image: "/clients/online/2.png" },
+      { image: "/clients/online/3.png" },
+    ],
+  },
+  hotel: {
+    label: "Hotel",
+    logo: [
+      {
+        label: "Bangkok",
+        logo: [
+          { image: "/clients/hotel/bangkok/1.png" },
+          { image: "/clients/hotel/bangkok/2.png" },
+          { image: "/clients/hotel/bangkok/3.png" },
+          { image: "/clients/hotel/bangkok/4.png" },
+          { image: "/clients/hotel/bangkok/5.png" },
+          { image: "/clients/hotel/bangkok/6.png" },
+          { image: "/clients/hotel/bangkok/7.png" },
+          { image: "/clients/hotel/bangkok/8.png" },
+          { image: "/clients/hotel/bangkok/9.png" },
+          { image: "/clients/hotel/bangkok/10.png" },
+          { image: "/clients/hotel/bangkok/11.png" },
+          { image: "/clients/hotel/bangkok/12.png" },
+          { image: "/clients/hotel/bangkok/13.png" },
+          { image: "/clients/hotel/bangkok/14.png" },
+          { image: "/clients/hotel/bangkok/15.png" },
+          { image: "/clients/hotel/bangkok/16.png" },
+          { image: "/clients/hotel/bangkok/17.png" },
+          { image: "/clients/hotel/bangkok/18.png" },
+          { image: "/clients/hotel/bangkok/19.png" },
+          { image: "/clients/hotel/bangkok/20.png" },
+        ],
+      },
+      {
+        label: "Pattaya",
+        logo: [
+          { image: "/clients/hotel/pattaya/1.png" },
+          { image: "/clients/hotel/pattaya/2.png" },
+        ],
+      },
+      {
+        label: "Chiangmai",
+        logo: [{ image: "/clients/hotel/chiangmai/1.png" }],
+      },
+      {
+        label: "Khonkean",
+        logo: [{ image: "/clients/hotel/khonkean/1.png" }],
+      },
+      {
+        label: "Ubon Ratchathani",
+        logo: [{ image: "/clients/hotel/ubon/1.png" }],
+      },
+    ],
+  },
+};

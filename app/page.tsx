@@ -13,7 +13,7 @@ export default function Home() {
       <BrandDetail />
       <BrandsLogo />
       <ClientsLogo />
-      <LastestNews />
+      {/* <LastestNews /> */}
       <LatestEvents />
       <ContactUs />
     </main>
